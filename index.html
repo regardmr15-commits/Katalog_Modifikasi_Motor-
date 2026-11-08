@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ertuzett</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">Ertuzett</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#catalog">Catalog</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Katalog Modifikasi Motor</h1>
+        <p>Kumpulan foto part dan modifikasi motor sebagai inspirasi untuk motormu.</p>
+    </section>
+
+    <section id="catalog">
+        <h2>Catalog</h2>
+        <p>Klik salah satu foto untuk melihat deskripsinya.</p>
+
+        <input type="text" id="searchInput" placeholder="Cari nama part atau kategori...">
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="Depan.jpg" alt="Depan">
+                <h3>Aerox 155</h3>
+                <p class="kategori">Vietnam Style</p>
+                <p class="deskripsi" hidden>Aerox 155 konsep Vietnam Style dengan perpaduan warna biru dan silver membuat looksnya terlihat kalem tapi sangar.</p>
+            </div>
+
+            <div class="card">
+                <img src="Master Rem.jpg" alt="Master Rem">
+                <h3>Master Rem</h3>
+                <p class="kategori">Master Rem</p>
+                <p class="deskripsi" hidden>Master rem menggunakan Brembo Original dilengkapi dengan pemanis tabung minyak rem Titanium dengan total Rp 15.000.000.</p>
+            </div>
+
+            <div class="card">
+                <img src="Disc.jpg" alt="Discbrake">
+                <h3>Discbrake</h3>
+                <p class="kategori">Pengereman</p>
+                <p class="deskripsi" hidden>Pengereman kaliper menggunakan Aurora serta selang rem dari Hel dengan fittingan HYB kisaran Rp 5.000.000.</p>
+            </div>
+
+            <div class="card">
+                <img src="OCT.jpg" alt="OCT">
+                <h3>OCT</h3>
+                <p class="kategori">Fittingan Oil Catch Tank</p>
+                <p class="deskripsi" hidden>Dilengkapi dengan selang hawa fittingan dari HYB dan menggunakan OCT seharga Rp 5.000.000.</p>
+            </div>
+
+             <div class="card">
+                <img src="Knalpot.jpg" alt="Knalpot">
+                <h3>Knalpot</h3>
+                <p class="kategori">Shijiro Titanium</p>
+                <p class="deskripsi" hidden>Knalpot menggunakan shijiro dengan bahan titanium seharga Rp 8.000.000.</p>
+            </div>
+
+             <div class="card">
+                <img src="Velg.jpg" alt="Velg">
+                <h3>Velg</h3>
+                <p class="kategori">Ak55 Ring 17</p>
+                <p class="deskripsi" hidden>Velg menggunakan VND tipe Ak55 warna hitam dengan diameter ring 17 seharga Rp 1.800.000.</p>
+            </div>
+
+             <div class="card">
+                <img src="Arm.jpg" alt="Arm">
+                <h3>Swing Arm</h3>
+                <p class="kategori">Hypertech</p>
+                <p class="deskripsi" hidden>Swing Arm memakai Hypertech seharga Rp 2.000.000.</p>
+            </div>
+
+             <div class="card">
+                <img src="Belakang.jpg" alt="Belakang">
+                <h3>Carbon</h3>
+                <p class="kategori">Body Kasar Carbon Spreadtow</p>
+                <p class="deskripsi" hidden>Seluruh body kasar sudah dilapisi dengan carbon motif spreadtow dengan total Rp 6.000.000.</p>
+            </div>
+
+        </div>
+
+        <p id="emptyMessage" hidden>Part yang kamu cari tidak ditemukan.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            Ertuzett adalah katalog sederhana yang menampilkan berbagai part dan hasil modifikasi motor.
+            Kamu bisa mencari part, melihat kategorinya, dan membaca deskripsinya.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Nama: Ertuzett</p>
+        <p>Email: ertuzett15@gmail.com</p>
+        <p>Instagram: @ertuzett</p>
+
+        <form id="contactForm">
+            <h2>Tulis Saran Modifmu!</h2>
+            <input type="text" id="nama" placeholder="Nama">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="pesan/Saran Motor" rows="4" placeholder="Pesan/Saran Motor"></textarea>
+            <button type="submit">Kirim</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Ertuzett</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
